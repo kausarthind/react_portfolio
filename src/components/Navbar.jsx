@@ -1,17 +1,20 @@
 import { Link } from 'react-router-dom';
+import Logo from './Logo';
 
 const Navbar = () => {
-  return (
-    <nav>
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About Me</Link></li>
-        <li><Link to="/projects">Projects</Link></li>
-        <li><Link to="/services">Services</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
-      </ul>
-    </nav>
-  );
-};
+    return (
+      <nav className="bg-blue-500 p-4">
+        <div className="container mx-auto flex justify-between items-center">
+          <Logo/>
+          <div className="space-x-4 text-gray">
+            <Link to="/about" className="text-white">About</Link>
+            <Link to="/projects" className="text-white">Projects</Link>
+            <Link to="/services" className="text-ßwhite">Services</Link>
+            <Link to="/contact" className="ßtext-white">Contact</Link>
+          </div>ß
+        </div>
+      </nav>
+    );
+  };
 
 export default Navbar;
