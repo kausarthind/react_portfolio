@@ -13,6 +13,7 @@ export default {
       'green': '#13ce66',
       'yellow': '#ffc82c',
       'gray-dark': '#273444',
+      'kwhite':'#FFFFFF',
       'gray': '#8492a6',
       'gray-light': '#d3dce6',
       'black':'#000000',
@@ -20,6 +21,7 @@ export default {
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
+      'dancing-script': ['Dancing Script', 'cursive'],
     },
     extend: {
       spacing: {

@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const ServiceCard = ({ icon, title, description }) => (
     <a
-      className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+      className="service-wrapper block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:text-kwhite hover:bg-blue"
       href="/services/digital-campaigns"
     >
       <FontAwesomeIcon icon={icon} className="text-blue text-xl cursor-pointer" />
