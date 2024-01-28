@@ -1,3 +1,10 @@
+/* 
+ * File: Navbar.jsx
+ * Student's Name: Kausar Parveen
+ * StudentID: 301369416
+ * Date: 29/01/2024
+ */
+
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Logo from './Logo';

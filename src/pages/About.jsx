@@ -1,3 +1,9 @@
+/* 
+ * File: About.jsx
+ * Student's Name: Kausar Parveen
+ * StudentID: 301369416
+ * Date: 29/01/2024
+ */
 
 const About = () => {
   return (
@@ -16,7 +22,7 @@ const About = () => {
         <h2 className="text-3xl font-bold sm:text-4xl">About Me</h2>
 
         <p className="mt-4 text-gray-600">
-          Hello! I'm John Doe, a passionate Software Engineer dedicated to Artificial Intelligence Research. With a creative mindset and attention to detail, I aim to deliver exceptional results in every project I undertake.
+          Hello! I'm Kausar Parveen, a passionate Software Engineer dedicated to Artificial Intelligence Research. With a creative mindset and attention to detail, I aim to deliver exceptional results in every project I undertake.
 
           <p className="font-bold mt-4">Ready to elevate your projects? Let's get started today!</p>
         </p>

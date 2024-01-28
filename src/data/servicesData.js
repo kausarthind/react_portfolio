@@ -1,3 +1,10 @@
+/* 
+ * File: index.css
+ * Student's Name: Kausar Parveen
+ * StudentID: 301369416
+ * Date: 29/01/2024
+ */
+
 // data/servicesData.js
 import { faCode, faDesktop, faMobile, faDatabase, faCodeBranch, faRocket } from '@fortawesome/free-solid-svg-icons';
 

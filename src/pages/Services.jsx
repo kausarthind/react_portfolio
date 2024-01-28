@@ -1,3 +1,10 @@
+/* 
+ * File: Services.jsx
+ * Student's Name: Kausar Parveen
+ * StudentID: 301369416
+ * Date: 29/01/2024
+ */
+
 import ServiceCard from '../components/ServiceCard';
 import servicesData from "../data/servicesData"
 
