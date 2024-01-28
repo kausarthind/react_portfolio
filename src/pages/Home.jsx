@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -18,6 +19,11 @@ const Home = () => {
           <p className="text-kwhite p-10 text-xl">
           Elegance. breeds. Efficiency
           </p>
+          <span
+          className="mt-8 inline-block rounded bg-blue px-12 py-3 text-grey text-sm font-medium text-kwhite transition  focus:outline-none focus:ring"
+        >
+          <Link to="/about">About Me</Link>
+        </span>
         </div>
       </div>
     </div>

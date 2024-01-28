@@ -16,16 +16,14 @@ const About = () => {
         <h2 className="text-3xl font-bold sm:text-4xl">About Me</h2>
 
         <p className="mt-4 text-gray-600">
-          Hello! I'm John Doe, a passionate Software Engineer dedicated to Artificial Intelligence Research. With a creative mindset and attention to detail, I aim to deliver exceptional results in every project I undertake. My journey in the world of Software Engineering has equipped me with valuable experience and a drive to continuously learn and grow.
+          Hello! I'm John Doe, a passionate Software Engineer dedicated to Artificial Intelligence Research. With a creative mindset and attention to detail, I aim to deliver exceptional results in every project I undertake.
 
-          Let's collaborate and bring your ideas to life. Whether it's crafting compelling AI Models or creating innovative solutions for developers and users alike, I'm here to make a positive impact.
-
-          Ready to elevate your projects? Let's get started today!
+          <p className="font-bold mt-4">Ready to elevate your projects? Let's get started today!</p>
         </p>
 
         <a
           href="#"
-          className="mt-8 inline-block rounded bg-blue px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
+          className="mt-8 inline-block rounded bg-blue px-12 py-3 text-sm font-medium text-kwhite transition  focus:outline-none focus:ring "
         >
           Resume
         </a>

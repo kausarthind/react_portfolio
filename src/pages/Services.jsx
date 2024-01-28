@@ -20,8 +20,8 @@ const Services = () => {
 
         <div className="mt-12 text-center">
           <a
-            href="#"
-            className="inline-block rounded bg-blue px-12 py-3 text-sm font-medium text-white transition hover:bg-pink-700 focus:outline-none focus:ring focus:ring-yellow"
+            href="/contact"
+            className="inline-block rounded bg-blue px-12 py-3 text-sm font-medium text-kwhite transition  focus:outline-none focus:ring "
           >
             Get Started Today
           </a>

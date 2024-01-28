@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom";
 
 export const Contacts = () => {
   return (
-    <section className="bg-gray-100">
+    <section className="contact-wrapper">
     <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
       <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
         <div className="lg:col-span-2 lg:py-12">
@@ -12,7 +13,7 @@ export const Contacts = () => {
           </p>
 
           <div className="mt-8">
-            <a href="tel:01514754450" className="text-2xl font-bold text-pink-600">
+            <a href="tel:01514754450" className="text-xl font-bold text-blue">
               0151 475 4450
             </a>
 
@@ -20,14 +21,14 @@ export const Contacts = () => {
           </div>
         </div>
 
-        <div className="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
+        <div className="rounded-md bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
           <form action="" className="space-y-4">
             <div>
               <label htmlFor="name" className="sr-only">
                 Name
               </label>
               <input
-                className="w-full rounded-lg border-gray p-3 text-sm"
+                className="w-full rounded-md border-gray p-3 text-sm"
                 placeholder="Name"
                 type="text"
                 id="name"
@@ -40,7 +41,7 @@ export const Contacts = () => {
                   Email
                 </label>
                 <input
-                  className="w-full rounded-lg border-gray p-3 text-sm"
+                  className="w-full rounded-md border-gray p-3 text-sm"
                   placeholder="Email address"
                   type="email"
                   id="email"
@@ -52,7 +53,7 @@ export const Contacts = () => {
                   Phone
                 </label>
                 <input
-                  className="w-full rounded-lg border-black p-3 text-sm"
+                  className="w-full rounded-md border-black p-3 text-sm"
                   placeholder="Phone Number"
                   type="tel"
                   id="phone"
@@ -66,7 +67,7 @@ export const Contacts = () => {
               </label>
 
               <textarea
-                className="w-full rounded-lg border-gray-dark p-3 text-sm"
+                className="w-full rounded-md border-gray-dark p-3 text-sm"
                 placeholder="Message"
                 rows="8"
                 id="message"
@@ -75,10 +76,10 @@ export const Contacts = () => {
 
             <div className="mt-4">
               <button
-                type="submit"
-                className="inline-block w-full rounded-lg bg-blue px-5 py-3 font-medium text-white sm:w-auto"
+                type="button"
+                className="inline-block w-full rounded-md bg-blue px-5 py-3 font-medium text-kwhite sm:w-auto"
               >
-                Send Enquiry
+                <Link to="/">Send Enquiry</Link>
               </button>
             </div>
           </form>
