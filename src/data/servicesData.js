@@ -1,5 +1,5 @@
 /* 
- * File: index.css
+ * File: servicesData.js
  * Student's Name: Kausar Parveen
  * StudentID: 301369416
  * Date: 29/01/2024
