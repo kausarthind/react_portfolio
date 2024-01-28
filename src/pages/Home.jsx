@@ -6,6 +6,7 @@
  */
 
 import { Link } from 'react-router-dom';
+import profileImage from "../assets/images/MyProfileImage.jpeg"
 
 const Home = () => {
   return (
@@ -16,11 +17,11 @@ const Home = () => {
         <div className="bg-white p-8 rounded-lg  text-center">
           {/* Profile Image */}
           <div className="mb-4">
-            <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="Profile" className="w-24 h-24 rounded-full mx-auto border-4 border-kwhite" />
+            <img src={profileImage} alt="Profile" className="image-wrapper w-24 h-24 rounded-full mx-auto border-4 border-kwhite" />
           </div>
 
           {/* Name with curly font and tilted */}
-          <h1 className="name-wrapper text-4xl font-dancing-script text-kwhite">-Kausarthind-</h1>
+          <h1 className="name-wrapper text-4xl font-dancing-script text-kwhite">-KausarParveen-</h1>
 
           {/* Mission Statement */}
           <p className="text-kwhite p-10 text-xl">

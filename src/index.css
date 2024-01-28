@@ -10,10 +10,8 @@
 @tailwind utilities;
 
 
-/* .logo-wrapper{
-    border-radius: 5px;
-} */
 
+/* Nav bar styles */
 .nav-item:hover{
     color: black;
 
@@ -23,6 +21,7 @@ nav{
     transition: all 0.5s ease-in;
 }
 
+
 .name-wrapper{
     transform: rotate(-15deg);
 }
@@ -30,9 +29,16 @@ nav{
     transition:all 0.5s ease-in-out;
     color:white !important;
 }
+
+/* Contact form input fields styles */
 .contact-wrapper input{
     border: 1px solid gray;
 }
 .contact-wrapper textarea{
     border: 1px solid gray;
+}
+
+/* Profile image styles */
+.image-wrapper{
+    object-fit: cover;
 }
