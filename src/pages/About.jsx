@@ -28,7 +28,7 @@ const About = () => {
         </p>
 
         <a
-          href="#"
+          href="https://docs.google.com/document/d/1rXBADz-eRaNkgwmRM7Jkzt89Lz3Tfzab/edit?usp=sharing&ouid=102344055918028066028&rtpof=true&sd=true"
           className="mt-8 inline-block rounded bg-blue px-12 py-3 text-sm font-medium text-kwhite transition  focus:outline-none focus:ring "
         >
           Resume
