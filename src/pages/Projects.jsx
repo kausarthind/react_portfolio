@@ -29,7 +29,9 @@ const Projects = () => {
               <p className="text-gray mb-4">{project.description}</p>
               <div className="flex flex-row justify-between">
                 <p className="text-blue font-semibold">{project.role}</p>
-                 <FontAwesomeIcon icon={faArrowAltCircleRight} className="text-4xl text-blue" />
+                 <a href={project.link}>
+                  <FontAwesomeIcon icon={faArrowAltCircleRight} className="text-4xl text-blue" />
+                  </a>
               </div>
             </div>
           ))}
