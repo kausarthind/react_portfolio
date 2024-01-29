@@ -25,15 +25,6 @@ const Services = () => {
             <ServiceCard key={index} {...service} />
           ))}
         </div>
-
-        <div className="mt-12 text-center">
-          <a
-            href="/contact"
-            className="inline-block rounded bg-blue px-12 py-3 text-sm font-medium text-kwhite transition  focus:outline-none focus:ring "
-          >
-            Get Started Today
-          </a>
-        </div>
       </div>
     </section>
   );
