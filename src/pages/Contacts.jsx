@@ -12,6 +12,8 @@ export const Contacts = () => {
     <section className="contact-wrapper">
     <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
       <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
+        
+        {/* Contact information section */}
         <div className="lg:col-span-2 lg:py-12">
           <p className="max-w-xl text-lg">
             At the same time, the fact that we are wholly owned and totally independent from
@@ -28,6 +30,7 @@ export const Contacts = () => {
           </div>
         </div>
 
+        {/* Contact form */}
         <div className="rounded-md bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
           <form action="" className="space-y-4">
             <div>
@@ -81,6 +84,7 @@ export const Contacts = () => {
               ></textarea>
             </div>
 
+            {/* Submit button */}
             <div className="mt-4">
               <button
                 type="button"

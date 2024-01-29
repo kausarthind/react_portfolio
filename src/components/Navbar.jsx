@@ -34,6 +34,7 @@ const Navbar = () => {
         </div>
         </div>
 
+      {/* Mobile nav bar */}
         {isSideNavVisible && (
         <div className={`md:hidden p-4 transition duration-300 ease-in-out ${
           isSideNavVisible ? 'transform translate-x-0' : 'transform -translate-x-full'

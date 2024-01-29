@@ -7,6 +7,7 @@ import Services from './pages/Services'
 import Home from './pages/Home'
 import Contacts from './pages/Contacts'
 import About from './pages/About'
+import SocialIcons from './components/Social'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contacts />} />
       </Routes>
+      <SocialIcons/>
     </Router>
   )
 }

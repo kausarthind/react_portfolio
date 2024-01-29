@@ -14,7 +14,7 @@ const Services = () => {
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
         <div className="mx-auto max-w-lg text-center">
           <h2 className="text-3xl font-bold sm:text-4xl">Services I Offer</h2>
-          <p className="mt-4 text-gray-300">
+          <p className="mt-4 text-gray">
           As a skilled professional, I offer a range of services to meet your digital needs. Check out the services I provide to enhance your projects and business.
           </p>
         </div>
