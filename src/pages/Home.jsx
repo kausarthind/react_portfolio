@@ -10,6 +10,7 @@ import profileImage from "../assets/images/MyProfileImage.jpeg"
 
 const Home = () => {
   return (
+    // Background image
     <div className="bg-cover bg-center bg-fixed h-screen" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80')" }}>
       <div className="bg-blue bg-opacity-70 h-full w-full absolute"></div>
 

@@ -18,6 +18,7 @@ const Projects = () => {
           Explore some of the exciting projects I've had the opportunity to work on. Each project showcases my skills as a developer and designer.
         </p>
         
+        {/* Displays projects using the map function */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {projectsData.map((project, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-md">

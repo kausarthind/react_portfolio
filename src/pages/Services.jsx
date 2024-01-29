@@ -19,6 +19,7 @@ const Services = () => {
           </p>
         </div>
 
+        {/* Import service card and use it to display services using the map function */}
         <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {servicesData.map((service, index) => (
             <ServiceCard key={index} {...service} />
