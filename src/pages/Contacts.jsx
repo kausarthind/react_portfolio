@@ -21,8 +21,8 @@ export const Contacts = () => {
 
           <div className="mt-10 text-center">
             <div className="flex flex-col">
-              <a href="tel:01514754450" className="text-xl text-blue">
-                0151 475 4450
+              <a href="tel:+14373282800" className="text-xl text-blue">
+                +1 4373 282 800
               </a>
               <a href="mailto:Kausarthind555@gmail.com" className="text-xl  text-blue">
               Kausarthind555@gmail.com
