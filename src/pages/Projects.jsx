@@ -5,6 +5,8 @@
  * Date: 29/01/2024
  */
 import projectsData from "../data/projectsData";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons';
 
 
 const Projects = () => {
@@ -25,7 +27,10 @@ const Projects = () => {
               <img src={project.image} alt={project.title} className="mb-4 w-full h-40 object-cover rounded-md" />
               <h3 className="text-xl font-bold mb-2 text-blue">{project.title}</h3>
               <p className="text-gray mb-4">{project.description}</p>
-              <p className="text-blue font-semibold">{project.role}</p>
+              <div className="flex flex-row justify-between">
+                <p className="text-blue font-semibold">{project.role}</p>
+                 <FontAwesomeIcon icon={faArrowAltCircleRight} className="text-4xl text-blue" />
+              </div>
             </div>
           ))}
         </div>

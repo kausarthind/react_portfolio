@@ -16,18 +16,21 @@ const projectsData = [
       image: ecommerce, 
       role: 'Frontend Developer',
       description: 'Developed the user interface for a modern e-commerce website using React. Implemented responsive design, product catalog, and checkout process.',
+      link:"https://github.com/kausarthind/thindify"
     },
     {
       title: 'Social Media App',
       image: social,
       role: 'Full Stack Developer',
       description: 'Led the development of a social media platform from concept to deployment. Utilized MERN stack to create user profiles, posts, and interactive features.',
+      link:"https://github.com/kausarthind/thindibook"
     },
     {
       title: 'Portfolio Redesign',
       image: portfolio,
       role: 'UI/UX Designer',
       description: 'Revamped personal portfolio website with a focus on clean and intuitive design. Improved user experience and incorporated a responsive layout.',
+      link:"https://github.com/kausarthind/ravi_portfolio"
     },
   ];
 
